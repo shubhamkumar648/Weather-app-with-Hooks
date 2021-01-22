@@ -13,14 +13,14 @@ if(description) {
     const keyWords = ['cloudy', 'clouds', 'cloud', 'overcast']
     for(let i = 0; i < weatherDescription.length; i++) {
         if(keyWords.includes(weatherDescription[i])) {
-console.log(weatherDescription[i], ':we have a match')
+            return <img src='https://media.freestocktextures.com/cache/74/8b/748ba3fe5976d8b03219a64851d2790d.jpg' alt='image-description' />
 
     }
 
 }
-  console.log(keyWords)
+//   console.log(keyWords)
 
-  console.log(weatherDescription)
+//   console.log(weatherDescription)
 
 
 }}
